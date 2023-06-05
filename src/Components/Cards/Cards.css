@@ -1,0 +1,48 @@
+.cards {
+    border: 5px;
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: #e4ae80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.cards:hover{
+    transform:translateY(-0.5rem);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5)!important;
+} 
+.contenedor-card{
+    width: 200px;
+    height: 150px;
+}
+.tarjetas{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+}
+.texto-tarjetas{
+    font-weight: 300;
+}
+.nombre-card{
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+.precio-product{
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+@media (min-width:1300px)
+{
+    .nombre-card{
+        font-size: 0.9rem;
+    }
+    .precio-product{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,32 @@
+  .conteiner-fluid{
+    background-color:  rgb(233, 226, 226) ;
+  }
+  .menu {
+    font-size: 12px;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .logo1 {
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+  }
+@media screen and (min-width: 768px) {  
+    .menu {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      justify-content: space-around;
+      padding-right: 30px;
+    }  
+    .logo1 {
+      margin-top: 30px;
+      width: 100px;
+      height: auto
+    }
+    li {
+      font-size: 0.8rem;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+}     

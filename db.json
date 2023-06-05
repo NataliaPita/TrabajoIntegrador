@@ -1,0 +1,31 @@
+
+
+
+{
+  "productos":[
+  {
+    "id": 1,
+    "imagen": "resolute bag original",
+    "nombre": "Café Resolute Original",
+    "precio": "$5000"
+  },
+  { 
+    "id": 2,
+    "imagen": "delter y catuai",
+    "nombre": "Combo Ruffo + Bodum",
+    "precio": "$24000"
+  },
+  { 
+    "id": 3,
+    "imagen": "cafetera borum pour over",
+    "nombre": "Cafetera Pour Over",
+    "precio": "$12000"
+  },
+  { 
+    "id": 4,
+    "imagen": "tazas barista",
+    "nombre": "Tazas barista x 2",
+    "precio": "$2500"
+  }
+  ]
+}

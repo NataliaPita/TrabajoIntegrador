@@ -1,0 +1,13 @@
+
+.container-cardlista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px; /* Espacio entre las cartas */
+  margin: 0 5% 0 5%; 
+}
+@media (min-width: 1154px) {
+  .container-cardlista{
+    display: flex;
+    justify-content: center;
+    }
+}

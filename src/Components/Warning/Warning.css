@@ -1,0 +1,24 @@
+.warning-style
+{
+    background-color: #D99152;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;   
+}
+
+.warning-button-style
+{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+@media  (min-width : 992px){
+    .warning-style
+    {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40px;
+        word-spacing: 3px;
+    }
+}

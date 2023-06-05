@@ -1,0 +1,41 @@
+.shopping-cart-button-style
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-width: 2px;
+    border-color: #593825;
+}
+
+.shopping-cart-style
+{
+    height: 35px;
+    width: auto;
+}
+
+.counter-style
+{
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-12px,-11px);
+}
+
+@media (min-width : 992px){
+    .shopping-cart-button-style
+    {
+        height: 45px;
+        width: 45px;
+    }
+    .shopping-cart-style
+    {
+        height: 40px;
+        width: auto;
+    }
+    .counter-style {
+        font-size: 14px;
+        transform: translate(-14px,-12px);
+    }
+}

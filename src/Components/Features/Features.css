@@ -1,0 +1,109 @@
+.feature{
+    display: grid;
+    grid-template-columns:repeat(1fr); 
+    gap:1rem;
+    background-image: linear-gradient(#d5beb0, #D99152);    
+    color:black;  
+    grid-auto-rows: minmax(200px,auto);    
+}
+.feature-title{
+    margin-top: 20px;
+    margin-left: 2rem; 
+    text-align:left;
+    align-items:center; 
+    font-weight: 400;
+    font-size: 1rem;
+}
+.feature-subt{
+    line-height: 1; 
+    margin-top: 1rem;   
+    margin-right: 1rem; 
+    font-weight: 300; 
+    font-size: 15px;
+    margin-left: 2rem;   
+    text-align: left; 
+}
+.feature-item{ 
+    list-style: none;
+    text-align:left;
+    font-weight: 300;
+    font-size: 12px; 
+}
+.btn-feature{     
+    margin-top: 3%;    
+    background-color: #F25C05;
+    padding: 0,5rem;
+    border-radius: 6px;
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-weight:300;
+    font-size: 0.7rem;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+.btn-feature:hover{
+    background-color: var(--second-color);
+    transition: all 0.5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feature-imagen{
+    width: 100%;
+    height:auto; 
+}
+.icon-feature{
+    color: #F25C05;
+    font-size: 0.5rem;
+} 
+
+@media(min-width:1024px){
+    .feature{
+        grid-template-columns:repeat(2,2fr);     
+        }
+    .feature-imagen{       
+        margin: 8% 0% 8% 0%;
+        padding-left: 2rem;
+        width: 90%;
+        height: auto;
+        }
+    .feature-title{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 80px;
+        }
+    .feature-subt{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-left: 2rem;       
+        padding-bottom: 1.5rem;
+        font-weight: 400;
+        }
+    .feature-item{
+        font-size: 13px;
+        }
+    .icon-feature{
+        font-size: 0.8rem;
+    }
+    .btn-feature{     
+        margin-top: 3%;    
+        background-color: #F25C05;
+        padding: 0,5rem;
+        border-radius: 6px;
+        border-style: none;
+        text-decoration: none;
+        text-align: center;
+        font-weight:300;
+        font-size: 0.7rem;
+        color: white;
+        width: 120px;
+        height: 30px;
+    }
+}
+
+@media(min-width:1300px){
+    .feature-item{
+        font-size: 16px;
+        }
+}

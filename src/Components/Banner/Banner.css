@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+} 
+/* CUSTOM PROPERTIES */
+:root{
+    --first-color: #2b1907;
+    --second-color:#703a13;
+    --color-text: #ffffff ;
+} 
+/* reset */
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: var(--firt-font);
+    overflow-x: hidden;  
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+    
+    
+    /*.****** HOME******.*/
+
+    .container-slogan{
+        background-image:url('https://th.bing.com/th/id/R.a81f49968d97e7b584c9379d1a3e3b47?rik=mhs7lqIDUPjaHw&pid=ImgRaw&r=0');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        width: auto;
+        flex-direction: column;
+    }
+    .slogan {
+        height: 100px;
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 10px; 
+    }
+    .artesanos {
+        font-size: 16px;
+        margin-top: 2%;
+        color: var(--second-color);
+        font-weight:400;
+        text-shadow:
+            0 0 20px var(--second-color),
+            0 0 20px var(--second-color) ,
+            0 0 21px var(--second-color),
+            0 0 20px #634741,
+            0 0 20px #634741,
+            0 0 20px #634741,
+    }
+    .slogan span{
+        color:rgb(58, 5, 5);
+    } 
+    .btn-sabores{
+        margin-top: 3%;    
+        margin-left: 18%;
+        background-color: var(--first-color);
+        border-radius: 10px;
+        border-style: none;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 300;
+        list-style: 0;
+        font-size: 0.8rem;
+        color: var(--color-text);
+        width: 80px;
+        height: 30px;
+    }
+    .btn-sabores:hover{
+        background-color: var(--second-color);
+        transition: all 0.5s all;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+@media screen and (min-width: 800px) {
+    .container-slogan{
+        height: 500px;
+    }
+    .slogan{
+        margin-top: 15%;
+        height: 150px;
+        width: 60%;
+    }
+    .artesanos {
+        font-size: 40px;
+    }
+    .btn-sabores {
+        height: 40px;
+        width: 110px;
+        font-size: 0.8rem;
+        margin-left: 25%;
+        margin-top: 70px;
+    }
+}
+@media screen and (min-width: 1500px){
+    .slogan{
+        margin-top:8%;
+        height: 150px;
+        width: 60%;
+    }
+}

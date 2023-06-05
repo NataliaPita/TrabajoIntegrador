@@ -1,0 +1,33 @@
+
+.quickShop {
+    color: white;
+    background-color: #f25c05;
+    padding: 2px 20px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    border: 0;
+    margin-bottom: 20px;
+}
+.quickShop:hover{
+    background-color: rgb(000, 000, 000);
+}
+.modal-body
+{
+    flex-direction: column;
+    align-items: center;
+}
+.modal-images
+{
+    height: auto;
+    width: 250px;
+}
+.accept-button{
+    background-color: #f25c05;
+    border-width: 1px;
+    border-color: #f25c05;
+}
+.accept-button:hover{
+    background-color: #ce4e03;
+    border-width: 1px;
+    border-color: #f25c05;
+}

@@ -1,0 +1,27 @@
+.venta{
+    background-color: #9f897b;
+}
+.productos {
+    align-content:flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titulo{
+    text-align: center;
+    font-weight: 300;
+    color: #593825;
+    padding-top: 50px;
+}
+.ofertas{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.ofertas:hover{
+    transition: 0.8s;
+    font-size: 30px;
+    color:#f25c05 ;
+}
